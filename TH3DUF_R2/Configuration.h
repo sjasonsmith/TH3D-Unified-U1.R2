@@ -444,6 +444,10 @@
 //#define TITAN_EXTRUDER
 #define TITAN_EXTRUDER_STEPS 463
 
+// If you are using an E3D or TH3D Titan Extruder uncomment the below line to setup the firmware to the correct steps and direction
+#define BULLDOG_EXTRUDER
+#define BULLDOG_EXTRUDER_STEPS 88
+
 // DUAL HOTEND SETTINGS ----------------------------
 
 // This is the distance between each nozzle tip when using a dual hotend like the TH3D Tough Dual Hotend or the E3D Chimera or Dual hotends.
