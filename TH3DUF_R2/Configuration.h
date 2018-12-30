@@ -483,6 +483,8 @@
 
 // If you have a 5015 fan that whines when under 100% speed uncomment the below line.
 #define FAN_FIX
+#define FAN_MIN_PWM 35
+#define FAN_KICKSTART_TIME 200
 
 // Use your own printer name
 //#define USER_PRINTER_NAME "CHANGE ME" 
